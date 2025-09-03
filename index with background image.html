@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - My Website</title>
+  <style>
+    /* Navigation bar */
+    nav {
+      background: rgba(44, 62, 80, 0.9);
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    /* Background image */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg); /* random background */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; /* parallax effect */
+      color: white;
+    }
+
+    /* Centered welcome text */
+    .hero {
+      height: 100vh; /* full screen */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    }
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .hero p {
+      font-size: 22px;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="foods.html">Foods</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>This is my first website with background images and navigation.</p>
+  </div>
+</body>
+</html>
